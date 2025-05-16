@@ -67,6 +67,7 @@ $status = "Application Status: Pending";
             <li><a href="home.php">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="logout.php">Log out</a></li>
         </ul>
     </nav>
 </header>
@@ -74,12 +75,13 @@ $status = "Application Status: Pending";
 <div class="container">
     <!-- Sidebar Menu -->
     <div class="sidebar" id="sidebar">
-        <h2>User Profile</h2>
-        <a href="#" onclick="loadContent('applicantDetails.php')">Applicant Details</a>
-        <a href="#" onclick="loadContent('institutionDetails.php')">Institution Details</a>
-        <a href="#" onclick="loadContent('attachments.php')">Attachments</a>
-        <a href="#" onclick="loadContent('apply.php')">Apply for Bursary</a>
-        <a href="#" onclick="loadContent('status.php')">Application Status</a>
+        <h2>Applicants Details</h2>
+        <h2><a href="#" onclick="loadContent('applicantDetails.php')">Applicant Details</a></h2>
+        <h2><a href="#" onclick="loadContent('institutionDetails.php')">Institution Details</a></h2>
+        <h2><a href="#" onclick="loadContent('attachments.php')">Attachments</a></h2>
+        <h2><a href="#" onclick="loadContent('apply.php')">Apply for Bursary</a></h2>
+        <h2><a href="#" onclick="loadContent('status.php')">Application Status</a></h2>        
+        
     </div>
 
     <!-- Main Content Area -->
@@ -100,10 +102,12 @@ $status = "Application Status: Pending";
     </div>
 </div>
 
-<footer>
+<footer style="background-color:purple;margin-top:10%;">
     <p>&copy; 2024 Kibwezi West Constituency Bursary Application. All rights reserved.</p>
     <p><a href="#terms" style="color: #eaf0f1;">Terms and Conditions</a> | <a href="#privacy" style="color: #eaf0f1;">Privacy Policy</a></p>
 </footer>
+
+
 
 <script>
     // Toggle mobile sidebar visibility
