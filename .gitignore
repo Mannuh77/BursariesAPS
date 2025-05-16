@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore XAMPP-specific stuff (if any)
+*.log
+*.sql
+*.7z
+*.zip
+
+# Ignore common PHP files/folders
+/vendor/
+/node_modules/
+.env
