@@ -75,7 +75,7 @@ $status = "Application Status: Pending";
 <div class="container">
     <!-- Sidebar Menu -->
     <div class="sidebar" id="sidebar">
-        <h2>Applicants Details</h2>
+        <h2>Applicants Profile</h2>
         <h2><a href="#" onclick="loadContent('applicantDetails.php')">Applicant Details</a></h2>
         <h2><a href="#" onclick="loadContent('institutionDetails.php')">Institution Details</a></h2>
         <h2><a href="#" onclick="loadContent('attachments.php')">Attachments</a></h2>
